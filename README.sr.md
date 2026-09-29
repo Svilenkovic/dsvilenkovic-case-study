@@ -2,7 +2,7 @@
 
 Tehničke beleške i odluke.
 
-**[dsvilenkovic.com](https://dsvilenkovic.com/)** · [English](README.md)
+**[dsvilenkovic.com](https://dsvilenkovic.com/)** · [Studija: SRMEK](https://dsvilenkovic.com/beleske/srmek-arhiva-i-vremenska-tacnost/) · [English](README.md)
 
 > [!NOTE]
 > Samostalni projekat D. Svilenkovića. Produkcijski izvor ostaje u privatnom repozitorijumu; ovaj javni repozitorijum dokumentuje izvedeni rad.
@@ -10,7 +10,7 @@ Tehničke beleške i odluke.
 <table>
   <tr><td><b>Vrsta</b></td><td>Tehničke beleške i odluke</td></tr>
   <tr><td><b>Jezici</b></td><td>srpski i engleski</td></tr>
-  <tr><td><b>Javne rute</b></td><td>18 canonical stranica</td></tr>
+  <tr><td><b>Javne rute</b></td><td>20 canonical stranica</td></tr>
   <tr><td><b>Uloga</b></td><td>istraživanje, dizajn, razvoj, SEO, hosting i održavanje</td></tr>
   <tr><td><b>Tehnologije</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
 </table>
@@ -28,7 +28,7 @@ Znanje iz projekta lako nestane kada ostane u tiketima ili izvornim fajlovima. O
 - Beleške organizovane oko odluka umesto učestalosti objava
 - Jasan obrazac kontekst, mogućnosti i ishod za tehničko pisanje
 - Navigacija kao konstelacija sa običnim linkovima u osnovi
-- Devet srpskih i devet engleskih canonical ruta
+- Deset srpskih i deset engleskih canonical ruta
 - Čitljiva tipografija, fokus tastature i reduced-motion podrška
 
 ## Provere izdanja

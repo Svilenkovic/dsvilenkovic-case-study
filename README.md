@@ -2,7 +2,7 @@
 
 A bilingual notebook for web decisions, tradeoffs and implementation notes that are useful beyond one project.
 
-**[dsvilenkovic.com](https://dsvilenkovic.com/)** · [Srpski](README.sr.md)
+**[dsvilenkovic.com](https://dsvilenkovic.com/)** · [SRMEK case study](https://dsvilenkovic.com/en/notes/srmek-archive-and-temporal-accuracy/) · [Srpski](README.sr.md)
 
 > [!NOTE]
 > This is an independent project by D. Svilenković. The production source stays in a private repository; this public repository documents the work.
@@ -10,7 +10,7 @@ A bilingual notebook for web decisions, tradeoffs and implementation notes that 
 <table>
   <tr><td><b>Type</b></td><td>Technical notes and decisions</td></tr>
   <tr><td><b>Languages</b></td><td>Serbian and English</td></tr>
-  <tr><td><b>Public routes</b></td><td>18 canonical pages</td></tr>
+  <tr><td><b>Public routes</b></td><td>20 canonical pages</td></tr>
   <tr><td><b>Role</b></td><td>Research, design, development, SEO, hosting and maintenance</td></tr>
   <tr><td><b>Stack</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
 </table>
@@ -28,7 +28,7 @@ The reading experience is a constellation of notes. Monochrome cards and violet 
 - Notes organised around decisions rather than news frequency
 - A clear context, option and outcome pattern for technical writing
 - Constellation navigation with ordinary links underneath
-- Nine Serbian and nine English canonical routes
+- Ten Serbian and ten English canonical routes
 - Readable typography, keyboard focus and reduced-motion support
 
 ## Release checks
