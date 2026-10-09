@@ -1,42 +1,58 @@
+<a href="https://dsvilenkovic.com/"><img src="media/cover.jpg" alt="D. Svilenković Notes, home page on a laptop and a phone" width="100%"></a>
+
 # D. Svilenković Notes
 
-A bilingual notebook for web decisions, tradeoffs and implementation notes that are useful beyond one project.
+A bilingual notebook where I record why a technical decision was made, what was checked and where the conclusion stops.
 
-**[dsvilenkovic.com](https://dsvilenkovic.com/)** · [SRMEK case study](https://dsvilenkovic.com/en/notes/srmek-archive-and-temporal-accuracy/) · [Srpski](README.sr.md)
+**[dsvilenkovic.com](https://dsvilenkovic.com/)** · [Case study (in Serbian)](https://svilenkovic.rs/radovi/d-svilenkovic) · [Srpski](README.sr.md)
 
 > [!NOTE]
-> This is an independent project by D. Svilenković. The production source stays in a private repository; this public repository documents the work.
+> My own project, not client work. The source code is private. This page describes what the site does and how it is built.
 
 <table>
-  <tr><td><b>Type</b></td><td>Technical notes and decisions</td></tr>
-  <tr><td><b>Languages</b></td><td>Serbian and English</td></tr>
-  <tr><td><b>Public routes</b></td><td>20 canonical pages</td></tr>
-  <tr><td><b>Role</b></td><td>Research, design, development, SEO, hosting and maintenance</td></tr>
-  <tr><td><b>Stack</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
+  <tr><td><b>Client</b></td><td>Own project</td></tr>
+  <tr><td><b>Industry</b></td><td>Technical notes and decisions</td></tr>
+  <tr><td><b>Location</b></td><td>Serbia</td></tr>
+  <tr><td><b>Type</b></td><td>Notes website</td></tr>
+  <tr><td><b>My role</b></td><td>Research, design, development, SEO and hosting</td></tr>
+  <tr><td><b>Stack</b></td><td>Astro 7, TypeScript, PHP 8.3, SQLite, nginx</td></tr>
 </table>
 
-## Purpose
+## About the project
 
-Project knowledge is easy to lose when it stays inside tickets or source files. This site turns selected decisions into short public notes that explain the context, the tradeoff and the chosen path.
+A finished site does not always show why a decision was made. On dsvilenkovic.com I write down the reasons, the limits and the points that need another check, so the conclusion does not stay only in a conversation or a commit message.
 
-## Design direction
-
-The reading experience is a constellation of notes. Monochrome cards and violet connections open into focused text, so the motion helps orientation instead of competing with it.
+The home page links the notes into a constellation, because architecture, accessibility, reliability and delivery affect each other, and a reader can come in through whichever problem they have. Each note opens with a concrete question, then says what was checked and where the conclusion ends. The motion only shows the connections; the meaning is in the headings and the text, and the pages work without JavaScript.
 
 ## What I built
 
-- Notes organised around decisions rather than news frequency
-- A clear context, option and outcome pattern for technical writing
+- Notes organised around decisions, with pages for architecture, reliability, accessibility and delivery
+- One pattern for each note: the question, what was checked and the limits of the conclusion
 - Constellation navigation with ordinary links underneath
-- Ten Serbian and ten English canonical routes
-- Readable typography, keyboard focus and reduced-motion support
+- Readable type, visible keyboard focus and reduced motion support
+- Serbian and English versions of every note
 
-## Release checks
+## Results
 
-Every canonical route was checked at 390, 768, 1440 and 1920 px. The release was also tested without JavaScript and with reduced motion. Live checks covered HTTPS, redirects, response headers, structured data, sitemap files, protected paths and invalid contact requests without sending test mail.
+| | Performance | Accessibility | Best practices | SEO |
+| :-- | :-: | :-: | :-: | :-: |
+| Mobile | 98 | 100 | 100 | 100 |
+| Desktop | 94 | 100 | 100 | 100 |
 
-These are engineering checks, not claims about search ranking or field performance.
+PageSpeed Insights, lab test of the live site, October 2026. Security headers: 6 of 6. axe accessibility check: no violations. Structured data: `Organization`, `Person`.
+
+## Screenshots
+
+<table>
+  <tr>
+    <td width="68%" valign="top"><img src="media/desktop.webp" alt="D. Svilenković Notes, home page on a 1440 px screen"></td>
+    <td width="32%" valign="top"><img src="media/mobile.webp" alt="D. Svilenković Notes, home page on a phone"></td>
+  </tr>
+</table>
+
+<img src="media/inner-1.webp" alt="Notes index on the live site">
+<sub>Notes index on the live site</sub>
 
 ---
 
-<sub>Designed and built by [D. Svilenković](https://svilenkovic.com).</sub>
+<sub>Built by [D. Svilenković](https://svilenkovic.com).</sub>

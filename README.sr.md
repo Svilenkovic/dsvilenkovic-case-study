@@ -1,42 +1,58 @@
+<a href="https://dsvilenkovic.com/"><img src="media/cover.jpg" alt="D. Svilenković Notes, naslovna strana na laptopu i telefonu" width="100%"></a>
+
 # D. Svilenković Notes
 
-Tehničke beleške i odluke.
+Dvojezična beležnica u kojoj zapisujem zašto je tehnička odluka doneta, šta je provereno i dokle zaključak važi.
 
-**[dsvilenkovic.com](https://dsvilenkovic.com/)** · [Studija: SRMEK](https://dsvilenkovic.com/beleske/srmek-arhiva-i-vremenska-tacnost/) · [English](README.md)
+**[dsvilenkovic.com](https://dsvilenkovic.com/)** · [Studija slučaja](https://svilenkovic.rs/radovi/d-svilenkovic) · [English](README.md)
 
 > [!NOTE]
-> Samostalni projekat D. Svilenkovića. Produkcijski izvor ostaje u privatnom repozitorijumu; ovaj javni repozitorijum dokumentuje izvedeni rad.
+> Moj sopstveni projekat, ne klijentski posao. Izvorni kod je privatan. Ova stranica opisuje šta sajt radi i kako je napravljen.
 
 <table>
-  <tr><td><b>Vrsta</b></td><td>Tehničke beleške i odluke</td></tr>
-  <tr><td><b>Jezici</b></td><td>srpski i engleski</td></tr>
-  <tr><td><b>Javne rute</b></td><td>20 canonical stranica</td></tr>
-  <tr><td><b>Uloga</b></td><td>istraživanje, dizajn, razvoj, SEO, hosting i održavanje</td></tr>
-  <tr><td><b>Tehnologije</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
+  <tr><td><b>Klijent</b></td><td>Sopstveni projekat</td></tr>
+  <tr><td><b>Delatnost</b></td><td>Tehničke beleške i odluke</td></tr>
+  <tr><td><b>Lokacija</b></td><td>Srbija</td></tr>
+  <tr><td><b>Vrsta</b></td><td>Sajt sa beleškama</td></tr>
+  <tr><td><b>Moj deo posla</b></td><td>Istraživanje, dizajn, izrada, SEO i hosting</td></tr>
+  <tr><td><b>Tehnologije</b></td><td>Astro 7, TypeScript, PHP 8.3, SQLite, nginx</td></tr>
 </table>
 
-## Namena
+## O projektu
 
-Znanje iz projekta lako nestane kada ostane u tiketima ili izvornim fajlovima. Ovaj sajt izabrane odluke pretvara u kratke javne beleške koje objašnjavaju kontekst, kompromis i izabrani put.
+Gotov sajt ne pokazuje uvek zašto je neka odluka doneta. Na dsvilenkovic.com beležim razloge, ograničenja i tačke koje treba ponovo proveriti, da zaključak ne ostane samo u razgovoru ili commit poruci.
 
-## Dizajn pravac
+Naslovna povezuje beleške u konstelaciju, jer arhitektura, pristupačnost, pouzdanost i isporuka utiču jedna na drugu, a čitalac ulazi kroz problem koji ga zanima. Svaka beleška otvara konkretno pitanje, pa kaže šta je provereno i gde je granica zaključka. Pokret samo pokazuje veze; smisao je u naslovima i tekstu, a strane rade i bez JavaScript-a.
 
-Čitanje je organizovano kao konstelacija beležaka. Monohromatske kartice i ljubičaste veze otvaraju se u fokusiran tekst, pa pokret pomaže orijentaciji umesto da joj smeta.
+## Šta sam uradio
 
-## Šta je urađeno
+- Beleške složene oko odluka, sa stranama za arhitekturu, pouzdanost, pristupačnost i isporuku
+- Isti obrazac za svaku belešku: pitanje, šta je provereno i granica zaključka
+- Navigacija kao konstelacija, a ispod nje obične veze
+- Čitljiva slova, vidljiv fokus tastature i podrška za smanjeno kretanje
+- Srpska i engleska verzija svake beleške
 
-- Beleške organizovane oko odluka umesto učestalosti objava
-- Jasan obrazac kontekst, mogućnosti i ishod za tehničko pisanje
-- Navigacija kao konstelacija sa običnim linkovima u osnovi
-- Deset srpskih i deset engleskih canonical ruta
-- Čitljiva tipografija, fokus tastature i reduced-motion podrška
+## Merenja
 
-## Provere izdanja
+| | Performanse | Pristupačnost | Dobre prakse | SEO |
+| :-- | :-: | :-: | :-: | :-: |
+| Telefon | 98 | 100 | 100 | 100 |
+| Desktop | 94 | 100 | 100 | 100 |
 
-Svaka canonical ruta proverena je na širinama 390, 768, 1440 i 1920 px. Izdanje je provereno i bez JavaScript-a i uz reduced-motion postavku. Žive provere obuhvatile su HTTPS, preusmerenja, zaglavlja odgovora, strukturirane podatke, sitemap fajlove, zaštićene putanje i neispravne kontakt zahteve bez slanja test poruka.
+PageSpeed Insights, laboratorijsko merenje živog sajta, oktobar 2026. Sigurnosna zaglavlja: 6 od 6. axe provera pristupačnosti: bez prekršaja. Strukturisani podaci: `Organization`, `Person`.
 
-Ovo su inženjerske provere, a ne tvrdnje o poziciji u pretrazi ili terenskim performansama.
+## Snimci ekrana
+
+<table>
+  <tr>
+    <td width="68%" valign="top"><img src="media/desktop.webp" alt="D. Svilenković Notes, naslovna strana na ekranu širine 1440 px"></td>
+    <td width="32%" valign="top"><img src="media/mobile.webp" alt="D. Svilenković Notes, naslovna strana na telefonu"></td>
+  </tr>
+</table>
+
+<img src="media/inner-1.webp" alt="Beleške na živom sajtu">
+<sub>Beleške na živom sajtu</sub>
 
 ---
 
-<sub>Dizajn i izrada: [D. Svilenković](https://svilenkovic.com).</sub>
+<sub>Izrada: [D. Svilenković](https://svilenkovic.rs).</sub>
